@@ -1,10 +1,5 @@
 #pragma once
 
-// ─────────────────────────────────────────────
-//  SafeBeacon — config.h
-//  Hardware: Honda Brio 2013 + ESP32 + SIM7600EI
-// ─────────────────────────────────────────────
-
 // ── Device Identity ──────────────────────────
 #define DEVICE_ID           "BRIO-001"
 #define FIRMWARE_VERSION    "0.3.1"
