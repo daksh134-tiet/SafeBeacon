@@ -1,0 +1,31 @@
+Component,Quantity,Purpose,Supplier,Part / Search term,Unit cost (INR),Total (INR),Notes
+ESP32-WROOM-32,1,Main MCU,Robu.in,ESP32 WROOM 32,220,220,Get the 38-pin dev board for prototyping
+SIM7600EI Breakout,1,4G LTE + GNSS,Robu.in,SIM7600EI breakout board,1850,1850,Includes GNSS — no separate GPS module needed
+MPU-6050 module,1,6-axis IMU,Robu.in,MPU6050 GY-521,75,75,GY-521 breakout board
+ELM327 IC (UART),1,OBD2 interpreter,Robu.in / Amazon,ELM327 UART OBD2,100,100,Get the UART version not Bluetooth
+LM2596 Buck Converter,1,12V to 5V,Robu.in,LM2596 DC-DC buck converter,50,50,Adjust output to exactly 5.0V before use
+TP4056 Charge Module,1,LiPo charging,Robu.in,TP4056 with protection,40,40,Must have protection circuit (dual chip variant)
+LiPo 3.7V 1200mAh,1,Backup battery,Robu.in,3.7V 1200mAh LiPo,180,180,Verify JST connector polarity before connecting
+AMS1117-3.3 LDO,1,3.3V regulation,Robu.in,AMS1117 3.3V LDO,15,15,For ELM327 + MPU-6050 if needed
+Electrolytic cap 1000µF 16V,2,SIM7600 power buffer,Local electronics,1000uF 16V electrolytic,10,20,CRITICAL — prevents ESP32 reset on 4G spike
+OBD2 16-pin male connector,1,Vehicle interface,Amazon,OBD2 male connector plug,65,65,Comes with pigtail wires
+SOS push button,1,Manual trigger,Robu.in,16mm push button momentary,25,25,Panel mount type
+RGB LED common cathode,1,Status indicator,Robu.in,RGB LED 5mm common cathode,15,15,
+Resistors 330Ω x3,3,LED current limiting,Local electronics,330 ohm resistor,2,6,For RGB LED
+Resistor 100kΩ,1,Voltage divider top,Local electronics,100k resistor,2,2,
+Resistor 10kΩ,1,Voltage divider bottom,Local electronics,10k resistor,2,2,
+Passive buzzer 5V,1,Crash alarm,Robu.in,5V passive buzzer,20,20,
+1N4007 diode,2,Reverse polarity protection,Local electronics,1N4007 diode,3,6,On power input
+Blade fuse holder + 1A fuse,1,Power protection,Local electronics,Inline blade fuse holder,20,20,Mandatory on 12V input
+Jumper wires (assorted),1 pack,Prototyping,Robu.in,Male-to-male jumper wire set,60,60,
+Breadboard full-size,1,Prototype assembly,Robu.in,Full-size solderless breadboard,80,80,For initial prototype
+Heat shrink tubing,1 pack,Wire protection,Local,Heat shrink tube assorted,30,30,
+JST connectors assorted,1 pack,Module connections,Robu.in,JST connector set,50,50,
+Zip ties,1 pack,Cable management,Local,Cable zip tie small,20,20,
+ABS project enclosure 100x60x25mm,1,Housing,Amazon / local,ABS junction box 100x60,120,120,IP54 rated preferred
+Double-sided foam tape,1,MPU-6050 mounting,Local,Double-sided foam mounting tape,30,30,Anti-vibration mounting critical
+,,,,,,,,
+TOTAL PROTOTYPE BOM,,,,,,,2,931
+,,,,,,,,
+NOTE: PCB fabrication (5 boards from JLCPCB) adds ~₹1050 shipping included — order when design is finalised
+NOTE: SIM card (Airtel/Jio) data plan — ₹99/month for 1GB is sufficient for 50 devices
