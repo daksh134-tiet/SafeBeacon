@@ -93,7 +93,7 @@ Using `ATSP6` instead of `ATSP0` (auto) speeds up connection from ~4 seconds to 
 
 ---
 
-## Sample Raw Responses
+## Raw Responses
 
 ```
 Query: 010C          (Engine RPM)
